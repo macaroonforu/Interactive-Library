@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href = style.css rel = "stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:bi">
+</head>
+<body>
+    <h1>Welcome to Interactive Fun Library!</h1>
+  
+    <form>
+        <ul class = "form-div">
+            <label class = "form-content" >Title: <input class = "form-content" type = "text" id = "book-title"/></label>
+           
+            <label class = "form-content" >Author:  <input class = "form-content" type = "text" id = "book-author"/> </label>
+          
+            <label class = "form-content" >Length: <input class = "form-content" type = "text" id = "book-length"/> </label>
+            
+            <label class = "form-content" >Status:<input class = "form-content" type = "checkbox" id = "book-status"/> </label>
+            
+           <button class = "form-content" id = "create" type = "button"> Add Book to Library</button>
+        </ul> 
+    </form>
+           
+            
+    <div class = "cloak">
+        
+            <div class = "book-icon-template">
+                <div class = "flexContainer">
+                    <p class = "icon-title iconElement"></p>
+                    <p class = "icon-author iconElement"></p>
+                    <p class = "icon-length iconElement"></p>
+                    <button class = "read-button icon-status iconElement" ></button>
+                    <button id = "remove" class = "iconElement">Remove Me</button>
+                </div>
+            </div>    
+      
+    </div>   
+
+    <div class = "book-shelf">
+        
+    </div>
+
+    <script src = main.js></script>
+
+
+</body>
+</html>
