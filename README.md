@@ -11,7 +11,7 @@ Hit the read button to change its status.
 Can remove books as well. 
 
 
-CLICK THIS LINK TO TRY IT OUT: https://macaroonforu.github.io/Interactive-Library-/  
+CLICK THIS [LINK](https://macaroonforu.github.io/Interactive-Library-/) TO TRY IT OUT
 
 IDEAS FOR FUTURE IMPROVEMENT: 
 
