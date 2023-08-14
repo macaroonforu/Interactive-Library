@@ -1,24 +1,6 @@
 # Interactive-Library-
-You can add a book. 
-
-
-If you hit the check, book is marked as read. 
-
-
-Hit the read button to change its status. 
-
-
-Can remove books as well. 
-
+You can add and remove books. You can also toggle a book's status between read and un-read by checking the status button which will affect how the book is displayed. This is a front-end application with vanilla js, html and css, so no database is actually being modified. 
 
 CLICK THIS [LINK](https://macaroonforu.github.io/Interactive-Library-/) TO TRY IT OUT
 
-IDEAS FOR FUTURE IMPROVEMENT: 
 
-Give user the option to add a picture to their book.
-
-
-Make the title consistent with the rest of the styling
-
-
-Find a way to improve the layout: currently it is weird that there is the floating add book icon, then the library. 
