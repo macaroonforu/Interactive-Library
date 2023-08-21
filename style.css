@@ -15,7 +15,7 @@
    /* grid-column: 2/3;*/
     text-align: center;
     flex-shrink: 1; 
-    max-width: 350px; 
+    max-width: 100%; 
 }
 
 .cloak{
