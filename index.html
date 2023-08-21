@@ -15,11 +15,11 @@
   
     <form id="form">
         <ul class = "form-div">
-            <label class = "form-content" ><p>Title: </p><input class = "form-content" type = "text" id = "book-title" required/></label>
+            <label class = "form-content" ><p>Title: </p><input class = "form-content" maxLength="60" type = "text" id = "book-title" required/></label>
            
-            <label class = "form-content" ><p>Author: </p><input class = "form-content" type = "text" id = "book-author" required/> </label>
+            <label class = "form-content" ><p>Author: </p><input class = "form-content" maxLength="60" type = "text" id = "book-author" required/> </label>
           
-            <label class = "form-content" ><p>Length: </p><input class = "form-content" type = "text" id = "book-length" required/> </label>
+            <label class = "form-content" ><p>Length: </p><input class = "form-content" type = "number" max="5000" id = "book-length" required/> </label>
             
             <label style="display:inline;" class = "form-content" ><p style="display:inline;">Status (Read/Not-Read): </p><input style="display:inline;" class = "form-content" type = "checkbox" id = "book-status"/></label>
             
