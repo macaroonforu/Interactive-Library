@@ -4,6 +4,7 @@
    /* grid-template-columns: 0.5fr 2fr 0.5fr;*/
    padding: 10px; 
    min-width: 300px;
+   justify-content: center; 
    display: flex; 
 }
 
