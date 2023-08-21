@@ -142,7 +142,7 @@ function clear(e){
 //and adds it to the library, no displaying
 document.querySelector("#create").addEventListener('click', addBookToLibrary); 
 document.querySelector('#clear').addEventListener('click', clear); 
-function addBookToLibrary(e){
+function addBookToLibrary(){
     title = document.getElementById("book-title").value;
     author = document.getElementById("book-author").value;
     length = document.getElementById("book-length").value;
@@ -159,5 +159,11 @@ function addBookToLibrary(e){
     const books = storageService.getBooks();
     display(books);  
 }
-
 display(storageService.getBooks()); 
+let form = document.getElementById("form");
+function handleForm(event) { 
+    event.preventDefault();
+    addBookToLibrary(); 
+ } 
+form.addEventListener('submit', handleForm);
+
