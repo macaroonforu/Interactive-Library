@@ -49,8 +49,7 @@ function Book(title, author, length, state){
     this.author = author; 
     this.length = length; 
     this.state = state;  
-
-
+    
     this.log = function(){
         console.log("Title: " + title  + "\nAuthor: " + author + "\nNumber of Pages: " + length + "\nstatus: " + state); 
     }
@@ -77,14 +76,8 @@ function Book(title, author, length, state){
         deleted.addEventListener("click", removeBook); 
         bookShelf.appendChild(newBookIcon);
     }
-
     this.changeState = function(newState){
-        console.log("entered"); 
         this.state = newState; 
-        console.log(this.state); 
-        console.log("this is the object after swap: "); 
-        console.log(this.state);
-        this.log(); 
     }
 }
 
@@ -102,8 +95,7 @@ function addBookToLibrary(e){
         state = "Not Read"; 
     }
     const newBook = new Book(title, author, length, state);
-    myLibrary.push(newBook);
-    newBook.log();  
+    myLibrary.push(newBook); 
     display(myLibrary);  
 }
 
