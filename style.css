@@ -35,31 +35,32 @@
     margin-right: 30%; 
     min-width: 300px; 
 }
-
 .book-shelf{
     display: grid; 
     grid-template-columns: repeat(auto-fill, minmax(300px, 100fr)); 
     gap: 20px; 
     margin-top: 20px; 
 }
-
 .form-content, p{
-    font-family: 'Poppins', sans-serif;  
+    font-family: 'Poppins', sans-serif; 
+    padding-bottom: 5px;  
 }
-
 input[type = text], button{
     border-radius: 10px;
     border:  3px solid; 
 }
-
 #remove{ 
     font-family: 'Poppins', sans-serif; 
     margin: 10px 0px 10px 0px; 
 }
-
 #create{
     margin-top: 10px; 
     background-color: lightblue; 
+    font-size: 1rem; 
+}
+#clear{
+    margin-top: 10px; 
+    background-color: lightyellow; 
     font-size: 1rem; 
 }
     
@@ -67,8 +68,7 @@ input[type = text], button{
 h1{
     font-size: 3rem; 
     text-transform: capitalize; 
-    text-shadow: 1px 1px 1px green, 
-                 3px -3px 3px pink; 
+    text-shadow: 1px 1px 1px green, 3px -3px 3px pink; 
     color: #EDE38C;  
     font-family: 'Fredoka', serif; 
 }
@@ -76,7 +76,6 @@ h1{
 body{
     background-color: #736183;  
 }
-
 
 .read-button{
     text-align: center; 
