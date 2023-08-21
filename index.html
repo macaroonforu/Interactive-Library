@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library</title>
+    <title>Local Library</title>
     <link href = style.css rel = "stylesheet">
      <link rel="icon" type="image/x-icon" href="book.ico">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka">
@@ -15,11 +15,11 @@
   
     <form>
         <ul class = "form-div">
-            <label class = "form-content" ><p>Title: </p><input class = "form-content" type = "text" id = "book-title"/></label>
+            <label class = "form-content" ><p>Title: </p><input class = "form-content" maxLength="20" type = "text" id = "book-title"/></label>
            
-            <label class = "form-content" ><p>Author: </p><input class = "form-content" type = "text" id = "book-author"/> </label>
+            <label class = "form-content" ><p>Author: </p><input class = "form-content" maxLength="20" type = "text" id = "book-author"/> </label>
           
-            <label class = "form-content" ><p>Length: </p><input class = "form-content" type = "text" id = "book-length"/> </label>
+            <label class = "form-content" ><p>Length (pages): </p><input class = "form-content" maxLength="4" type = "number" id = "book-length"/> </label>
             
             <label style="display:inline;" class = "form-content" ><p style="display:inline;">Status (Read/Not-Read): </p><input style="display:inline;" class = "form-content" type = "checkbox" id = "book-status"/></label>
             
