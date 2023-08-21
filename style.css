@@ -40,7 +40,7 @@
 }
 .book-shelf{
     display: grid; 
-    grid-template-columns: repeat(auto-fill, minmax(400px, 100fr)); 
+    grid-template-columns: repeat(auto-fill, minmax(450px, 100fr)); 
     gap: 20px; 
     margin-top: 20px; 
 }
