@@ -140,7 +140,6 @@ function clear(e){
 
 //This function simply creates a book object based on what we input into the form 
 //and adds it to the library, no displaying
-document.querySelector("#create").addEventListener('click', addBookToLibrary); 
 document.querySelector('#clear').addEventListener('click', clear); 
 function addBookToLibrary(){
     title = document.getElementById("book-title").value;
@@ -159,11 +158,12 @@ function addBookToLibrary(){
     const books = storageService.getBooks();
     display(books);  
 }
+
 display(storageService.getBooks()); 
+
 let form = document.getElementById("form");
 function handleForm(event) { 
     event.preventDefault();
     addBookToLibrary(); 
  } 
 form.addEventListener('submit', handleForm);
-
