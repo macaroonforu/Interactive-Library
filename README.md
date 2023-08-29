@@ -3,7 +3,4 @@ You can add and remove books. You can also toggle a book's status between read a
 
 See the [Library](https://interactive-library.vercel.app/) here. 
 
-![image](https://github.com/macaroonforu/Interactive-Library-/assets/121368271/84d5553e-31c0-486c-8fbe-53789d49ba22)
-
-
-
+![image](https://github.com/macaroonforu/Interactive-Library/assets/121368271/a5b59053-f1de-4cd1-bce1-7be68afe9405)
