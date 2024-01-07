@@ -11,7 +11,7 @@
 
 ## Description
 
-A library application that allows users to add, update, and delete book objects in local storage.  written with vanilla javascript. The user can toggle a book's status betweeen 'read' and 'not read' by clicking on a button on the book.  
+A library application written with vanilla JavaScript/HTML/CSS that allows users to add, update, and delete book objects in local storage. The user can toggle a book's status betweeen 'read' and 'not read' by clicking on a button on the book.  
 
 ![image](https://github.com/macaroonforu/Interactive-Library/assets/121368271/a5b59053-f1de-4cd1-bce1-7be68afe9405)
 
